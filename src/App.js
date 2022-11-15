@@ -1,6 +1,6 @@
 
 import Guage from "./components/guage_meter/guage";
-import Map from "./components/map_plotly/map"
+import Mapped from "./components/map_plotly_unoptimized/map";
 import "./App.css";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Guage/>
-      <Map/>
+      <Mapped/>
     </div>
   );
 }
